@@ -1,0 +1,32 @@
+# Virtual environments (uv, venv, conda)
+.venv/
+venv/
+ENV/
+env/
+
+# Environment variables & secrets (NEVER commit your GROQ_API_KEY)
+.env
+.env.local
+*.env
+
+# Python bytecode & cache
+__pycache__/
+*.py[cod]
+*$py.class
+*.pytest_cache/
+
+# OS-generated files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# IDE & Editor settings
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Build & deployment artifacts
+dist/
+build/
+*.log
